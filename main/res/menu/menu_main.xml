@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.termkeeper.TermActivityMain">
+
+    <item
+    android:id="@+id/addTerm"
+    android:orderInCategory="100"
+    android:title="Add Term"
+    app:showAsAction="never" />
+
+
+
+</menu>

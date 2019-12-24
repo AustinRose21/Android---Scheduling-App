@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.termkeeper">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.DarkActionBar">
+        <receiver
+            android:name=".MyReceiver"
+            android:enabled="true"
+            android:exported="true"></receiver>
+
+        <activity
+            android:name=".AddNoteActivity"
+            android:label="@string/title_activity_add_note"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DisplayCourseActivity"
+            android:label="@string/title_activity_display_course"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".AddCourseActivity" />
+        <activity
+            android:name=".DisplayTermActivity"
+            android:label="@string/title_activity_display_term"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AddTermActivity"
+            android:label="@string/title_activity_add_term"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ActivityCourseCalendar"
+            android:label="Course Calendar"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".EditAssessmentActivity"
+            android:label="@string/title_activity_add_term"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".EditCourseActivity"
+            android:label="EditCourseActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AddAssessmentActivity"
+            android:label="AddAssessmentActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+        android:name=".ActivityCourseCalendarEndDate"
+        android:label="ActivityCourseCalendarEndDate"
+        android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ActivityAssessmentGoalDate"
+            android:label="ActivityAssessmentGoalDate"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TermListActivity"
+            android:screenOrientation="unspecified"
+            android:configChanges="orientation"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".TermActivityMain"
+            android:label="Edit Term"
+            android:theme="@style/AppTheme.NoActionBar" />
+    </application>
+
+</manifest>

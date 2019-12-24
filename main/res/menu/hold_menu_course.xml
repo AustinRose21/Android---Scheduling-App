@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/option_1"
+        android:title="Delete"/>
+
+    <item
+        android:id="@+id/option_2"
+        android:title="Edit Course"/>
+    <item
+        android:id="@+id/option_3"
+        android:title="Notify Course Start"/>
+    <item
+        android:id="@+id/option_6"
+        android:title="Notify Course End"/>
+
+    <item
+        android:id="@+id/option_4"
+        android:title="Sharing"/>
+    <item
+        android:id="@+id/option_5"
+        android:title="Add note"/>
+
+
+
+
+</menu>

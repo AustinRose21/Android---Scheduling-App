@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">TermKeeper</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_term_list">TermListActivity</string>
+    <string name="title_activity_add_term">AddTermActivity</string>
+    <string name="title_activity_display_term">DisplayTermActivity</string>
+    <string name="title_activity_display_course">DisplayCourseActivity</string>
+    <string name="title_activity_add_note">AddNoteActivity</string>
+</resources>
